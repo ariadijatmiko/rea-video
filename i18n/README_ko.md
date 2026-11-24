@@ -11,18 +11,12 @@
 
 분석 결과는 **[VIDEO.md](https://videomd.github.io/videomd/)** 형식으로 출력됩니다. 에이전트가 단계별로 읽는 영상 분석용 오픈 포맷입니다.
 
-[웹사이트](https://www.reavideo.ai) | [中文](README_zh.md) | [English](../README.md) | [Русский](README_ru.md) | [日本語](README_ja.md) | 한국어 | [Español](README_es.md) | [Português](README_pt.md) | [Français](README_fr.md) | [Deutsch](README_de.md) | [Tiếng Việt](README_vi.md) | [বাংলা](README_bn.md) | [Türkçe](README_tr.md)
-
-**⚠️ Notice: rea-video is an open-source project. I have not launched and will not launch any cryptocurrency token. Any token using this project’s name is not affiliated with me, and I do not endorse it or accept fees from it. Please be cautious of scams.**
+[中文](README_zh.md) | [English](../README.md) | [Русский](README_ru.md) | [日本語](README_ja.md) | 한국어 | [Español](README_es.md) | [Português](README_pt.md) | [Français](README_fr.md) | [Deutsch](README_de.md) | [Tiếng Việt](README_vi.md) | [বাংলা](README_bn.md) | [Türkçe](README_tr.md)
 
 [![Stars](https://img.shields.io/github/stars/ariadijatmiko/rea-video?style=flat)](https://github.com/ariadijatmiko/rea-video/stargazers)
 ![Python](https://img.shields.io/badge/python-%E2%89%A53.10-blue)
 ![Agent](https://img.shields.io/badge/runs%20in-Claude%20Code%20%7C%20Codex-8A2BE2)
 [![Output: VIDEO.md](https://img.shields.io/badge/output-VIDEO.md-3d4fd6)](https://videomd.github.io/videomd/)
-
-<a href="https://trendshift.io/repositories/334878" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/334878/daily" alt="ariadijatmiko/rea-video | Trendshift" width="250" height="55"></a>
-
-[![Visit our website](https://img.shields.io/badge/Visit%20our%20website-6644D8?style=for-the-badge)](https://www.reavideo.ai) [![Join our Discord](https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dZj8D3GqWT) [![Follow on X](https://img.shields.io/badge/Follow%20%40yao__june12106-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/yao_june12106)
 
 ⭐ *더 많은 사람이 rea-video를 찾을 수 있게 Star 한 번 눌러 주세요!*
 
@@ -234,12 +228,6 @@ rea-video는 출력 폴더마다 하나씩 만들고(`out/ref/VIDEO.md`), 에이
 - [eval/RESULTS.md](../eval/RESULTS.md): 평가 결과
 
 문서는 아직 중국어로만 있습니다.
-
-## 커뮤니티
-
-질문, 분석 사례, 리메이크 아이디어는 [GitHub Discussions](https://github.com/ariadijatmiko/rea-video/discussions)에 남겨 주세요. [Discord](https://discord.gg/dZj8D3GqWT)에서도 이야기 나눌 수 있습니다. 중국어 사용자라면 [linux.do](https://linux.do/)에서도 만날 수 있습니다.
-
-분석해 봤으면 하는 영상이 있나요? 링크를 담아 [요청 이슈](https://github.com/ariadijatmiko/rea-video/issues/new?template=request_breakdown.yml)를 열어 주시면 결과를 사례로 공개합니다.
 
 ## 크레딧
 

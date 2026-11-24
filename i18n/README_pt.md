@@ -11,18 +11,12 @@ Plano a plano: descobre se foi filmado, gerado por IA ou feito em código, e com
 
 Toda análise é escrita em **[VIDEO.md](https://videomd.github.io/videomd/)**, um formato aberto que agentes leem em níveis.
 
-[Site](https://www.reavideo.ai) | [中文](README_zh.md) | [English](../README.md) | [Русский](README_ru.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Español](README_es.md) | Português | [Français](README_fr.md) | [Deutsch](README_de.md) | [Tiếng Việt](README_vi.md) | [বাংলা](README_bn.md) | [Türkçe](README_tr.md)
-
-**⚠️ Notice: rea-video is an open-source project. I have not launched and will not launch any cryptocurrency token. Any token using this project’s name is not affiliated with me, and I do not endorse it or accept fees from it. Please be cautious of scams.**
+[中文](README_zh.md) | [English](../README.md) | [Русский](README_ru.md) | [日本語](README_ja.md) | [한국어](README_ko.md) | [Español](README_es.md) | Português | [Français](README_fr.md) | [Deutsch](README_de.md) | [Tiếng Việt](README_vi.md) | [বাংলা](README_bn.md) | [Türkçe](README_tr.md)
 
 [![Stars](https://img.shields.io/github/stars/ariadijatmiko/rea-video?style=flat)](https://github.com/ariadijatmiko/rea-video/stargazers)
 ![Python](https://img.shields.io/badge/python-%E2%89%A53.10-blue)
 ![Agent](https://img.shields.io/badge/runs%20in-Claude%20Code%20%7C%20Codex-8A2BE2)
 [![Output: VIDEO.md](https://img.shields.io/badge/output-VIDEO.md-3d4fd6)](https://videomd.github.io/videomd/)
-
-<a href="https://trendshift.io/repositories/334878" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/334878/daily" alt="ariadijatmiko/rea-video | Trendshift" width="250" height="55"></a>
-
-[![Visit our website](https://img.shields.io/badge/Visit%20our%20website-6644D8?style=for-the-badge)](https://www.reavideo.ai) [![Join our Discord](https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dZj8D3GqWT) [![Follow on X](https://img.shields.io/badge/Follow%20%40yao__june12106-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/yao_june12106)
 
 ⭐ *Dá uma estrela no repo para mais gente achar o rea-video!*
 
@@ -234,12 +228,6 @@ Não. O rea-video serve para aprender a estrutura, o ritmo e as técnicas de um 
 - [eval/RESULTS.md](../eval/RESULTS.md): resultados da avaliação
 
 Por enquanto, a documentação está só em chinês.
-
-## Comunidade
-
-Dúvidas, análises e ideias de remake: [GitHub Discussions](https://github.com/ariadijatmiko/rea-video/discussions). A gente também está no [Discord](https://discord.gg/dZj8D3GqWT). Quem fala chinês também acha a gente no [linux.do](https://linux.do/).
-
-Quer que a gente analise um vídeo? Abra uma [issue de pedido](https://github.com/ariadijatmiko/rea-video/issues/new?template=request_breakdown.yml) com o link e a gente publica o resultado como um caso.
 
 ## Créditos
 
