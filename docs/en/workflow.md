@@ -146,7 +146,6 @@ Remake options:
 | Option | What it is | Requirements |
 |---|---|---|
 | [capsule-cinema](https://github.com/JuneYaooo/capsule-cinema) | Open-source local generation pipeline that works directly with `remake-plan` and `remake-run` | Local setup with your own models and keys; billed per model call |
-| [ChatCut](https://chatcut.io/r/github-e4rd?utm_content=skill_reply) (rea-video sponsor) | AI video editor with desktop (macOS / Windows) and web versions that can remake a reference video on one timeline | Account required, no model setup. Regular editing uses your existing agent subscription; generating AI video or images needs a ChatCut membership and uses credits; remaking a reference video needs the desktop version |
 | [HyperFrames](https://github.com/heygen-com/hyperframes) | Open-source HTML video framework for rebuilding code-rendered and motion-graphics shots | Node.js 22 or later; the framework is free (Apache-2.0), and its Studio app has paid plans |
 | Do it yourself | Shoot and edit yourself, or generate by hand on another platform, following the report's shooting plan and shot list | rea-video is free; other platforms charge their own fees |
 

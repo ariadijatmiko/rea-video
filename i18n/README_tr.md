@@ -144,23 +144,6 @@ Aynı değişiklik: özgün yeni bir ürün, İngilizce çıkartma → Çince al
 
 HD karşılaştırma videoları orijinal sesi kullanır. Orijinaller ve OiiOii versiyonları makalelerden alınmıştır ve yalnızca karşılaştırma amacıyla gösterilmektedir.
 
-Yeniden yapımı barındırılan bir yapay zekâ video editörü olan [ChatCut](https://chatcut.io/r/github-e4rd) ile de yapabilirsin: kurulacak model yok ve üretilen çekimler düzenlemeye devam edebileceğin bir zaman çizelgesine yerleşir. <sub>Sponsor</sub>
-
-## Sponsorlar
-
-rea-video ücretsiz ve açık kaynaktır. Sponsorlar bakımının sürmesine yardım ediyor.
-
-<table><tr>
-<td align="center" width="200"><a href="https://chatcut.io/r/github-e4rd"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="../docs/brand/chatcut-logo-light.svg">
-  <img src="../docs/brand/chatcut-logo-dark.svg" height="32" alt="ChatCut">
-</picture></a></td>
-<td><b><a href="https://chatcut.io/r/github-e4rd">ChatCut</a></b>, Claude Code ve Codex için çekimleri üreten, onları bir zaman çizelgesinde kurgulayan ve bitmiş videoyu dışa aktaran bir yapay zekâ video editörüdür.<br>
-<a href="https://chatcut.io/r/github-e4rd">ChatCut'ı ücretsiz dene</a></td>
-</tr></table>
-
-<sub>Sponsorlu · <a href="https://reavideo.ai/en/contact/">Sponsor ol</a></sub>
-
 ## Doğruluk
 
 "Nasıl yapıldı" kararının çekim süresine göre ağırlıklandırılmış doğruluğu:
