@@ -7,7 +7,7 @@ You usually don't need to type these commands: give an agent the repo and a vide
 Requires Python ≥ 3.10 and ffmpeg (macOS: `brew install ffmpeg`; Ubuntu: `apt install ffmpeg`).
 
 ```bash
-git clone https://github.com/JuneYaooo/rea-video && cd rea-video
+git clone https://github.com/ariadijatmiko/rea-video && cd rea-video
 pip install -e ".[ocr]"          # numpy / opencv / pillow / pyyaml / onnxruntime + optional OCR
 rea-video --help
 bash scripts/install_skill.sh    # optional: installs the CLI and links the skill into the agent directories you have (~/.claude, ~/.codex, ~/.agents, ~/.gemini; ~/.claude if none exist)
@@ -19,7 +19,7 @@ If you install `[ocr]` by hand, the OCR dependency also installs `opencv-python`
 Claude Code can also install the skill as a plugin. The CLI still needs `pip install`, and the skill checks for it first:
 
 ```text
-/plugin marketplace add JuneYaooo/rea-video
+/plugin marketplace add ariadijatmiko/rea-video
 /plugin install rea-video@rea-video
 ```
 

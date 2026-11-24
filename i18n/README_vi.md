@@ -15,12 +15,12 @@ Mỗi bản phân tích được ghi theo định dạng **[VIDEO.md](https://vi
 
 **⚠️ Notice: rea-video is an open-source project. I have not launched and will not launch any cryptocurrency token. Any token using this project’s name is not affiliated with me, and I do not endorse it or accept fees from it. Please be cautious of scams.**
 
-[![Stars](https://img.shields.io/github/stars/JuneYaooo/rea-video?style=flat)](https://github.com/JuneYaooo/rea-video/stargazers)
+[![Stars](https://img.shields.io/github/stars/ariadijatmiko/rea-video?style=flat)](https://github.com/ariadijatmiko/rea-video/stargazers)
 ![Python](https://img.shields.io/badge/python-%E2%89%A53.10-blue)
 ![Agent](https://img.shields.io/badge/runs%20in-Claude%20Code%20%7C%20Codex-8A2BE2)
 [![Output: VIDEO.md](https://img.shields.io/badge/output-VIDEO.md-3d4fd6)](https://videomd.github.io/videomd/)
 
-<a href="https://trendshift.io/repositories/334878" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/334878/daily" alt="JuneYaooo/rea-video | Trendshift" width="250" height="55"></a>
+<a href="https://trendshift.io/repositories/334878" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/334878/daily" alt="ariadijatmiko/rea-video | Trendshift" width="250" height="55"></a>
 
 [![Visit our website](https://img.shields.io/badge/Visit%20our%20website-6644D8?style=for-the-badge)](https://www.reavideo.ai) [![Join our Discord](https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dZj8D3GqWT) [![Follow on X](https://img.shields.io/badge/Follow%20%40yao__june12106-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/yao_june12106)
 
@@ -37,7 +37,7 @@ Bên trái là quảng cáo TikTok quay bằng điện thoại. Bên phải là 
 rea-video được thiết kế cho AI agent. Trong Claude Code, Codex hoặc bất kỳ agent nào chạy được lệnh terminal, bạn chỉ cần nhắn:
 
 ```text
-Cài https://github.com/JuneYaooo/rea-video rồi phân tích video này giúp tôi: /path/to/video.mp4
+Cài https://github.com/ariadijatmiko/rea-video rồi phân tích video này giúp tôi: /path/to/video.mp4
 ```
 
 Agent sẽ tự cài CLI, đọc quy trình làm việc và chạy trọn bộ từ đầu đến cuối. Bạn chỉ cần cài sẵn ffmpeg và Python 3.10+.
@@ -171,7 +171,7 @@ Nhận diện tư liệu thật đạt 97–99%; trên 9 clip gắn nhãn thủ 
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JuneYaooo/rea-video&type=Date)](https://star-history.com/#JuneYaooo/rea-video&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ariadijatmiko/rea-video&type=Date)](https://star-history.com/#ariadijatmiko/rea-video&Date)
 
 ## Câu hỏi thường gặp
 
@@ -237,9 +237,9 @@ Hiện tại bộ tài liệu chi tiết mới có bản tiếng Trung.
 
 ## Cộng đồng
 
-Đặt câu hỏi, trao đổi case phân tích và ý tưởng remake tại [GitHub Discussions](https://github.com/JuneYaooo/rea-video/discussions). Bạn cũng có thể trò chuyện trên [Discord](https://discord.gg/dZj8D3GqWT). Cộng đồng tiếng Trung có thể ghé qua [linux.do](https://linux.do/).
+Đặt câu hỏi, trao đổi case phân tích và ý tưởng remake tại [GitHub Discussions](https://github.com/ariadijatmiko/rea-video/discussions). Bạn cũng có thể trò chuyện trên [Discord](https://discord.gg/dZj8D3GqWT). Cộng đồng tiếng Trung có thể ghé qua [linux.do](https://linux.do/).
 
-Muốn nhờ bóc tách một video nào đó? Hãy mở một [issue yêu cầu](https://github.com/JuneYaooo/rea-video/issues/new?template=request_breakdown.yml) kèm đường link, chúng tôi sẽ công bố kết quả thành một case mẫu.
+Muốn nhờ bóc tách một video nào đó? Hãy mở một [issue yêu cầu](https://github.com/ariadijatmiko/rea-video/issues/new?template=request_breakdown.yml) kèm đường link, chúng tôi sẽ công bố kết quả thành một case mẫu.
 
 ## Ghi nhận
 

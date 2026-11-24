@@ -15,12 +15,12 @@
 
 **⚠️ 声明：rea-video 是一个开源项目，本人从未发行、也不会发行任何加密代币。任何使用本项目名称的代币均与本人无关，我也不会为其背书或领取相关收益。请勿相信，谨防受骗。**
 
-[![Stars](https://img.shields.io/github/stars/JuneYaooo/rea-video?style=flat)](https://github.com/JuneYaooo/rea-video/stargazers)
+[![Stars](https://img.shields.io/github/stars/ariadijatmiko/rea-video?style=flat)](https://github.com/ariadijatmiko/rea-video/stargazers)
 ![Python](https://img.shields.io/badge/python-%E2%89%A53.10-blue)
 ![Agent](https://img.shields.io/badge/runs%20in-Claude%20Code%20%7C%20Codex-8A2BE2)
 [![Output: VIDEO.md](https://img.shields.io/badge/output-VIDEO.md-3d4fd6)](https://videomd.github.io/videomd/zh/)
 
-<a href="https://trendshift.io/repositories/334878" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/334878/daily" alt="JuneYaooo/rea-video | Trendshift" width="250" height="55"></a>
+<a href="https://trendshift.io/repositories/334878" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/334878/daily" alt="ariadijatmiko/rea-video | Trendshift" width="250" height="55"></a>
 
 [![Visit our website](https://img.shields.io/badge/Visit%20our%20website-6644D8?style=for-the-badge)](https://www.reavideo.ai) [![Join our Discord](https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dZj8D3GqWT) [![微信交流群](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4-07C160?style=for-the-badge&logo=wechat&logoColor=white)](#社区) [![Follow on X](https://img.shields.io/badge/Follow%20%40yao__june12106-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/yao_june12106)
 
@@ -37,7 +37,7 @@
 rea-video 是给 AI agent 用的。打开 Claude Code、Codex 这类能跑命令的 agent，直接说：
 
 ```text
-安装 https://github.com/JuneYaooo/rea-video ，然后拆解这条视频：/path/to/video.mp4
+安装 https://github.com/ariadijatmiko/rea-video ，然后拆解这条视频：/path/to/video.mp4
 ```
 
 agent 会自己装好命令行工具、看懂拆解流程，然后一路跑完。电脑上需要有 ffmpeg 和 Python 3.10 以上。
@@ -180,7 +180,7 @@ rea-video 拆完，交给 [capsule-cinema](https://github.com/JuneYaooo/capsule-
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JuneYaooo/rea-video&type=Date)](https://star-history.com/#JuneYaooo/rea-video&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ariadijatmiko/rea-video&type=Date)](https://star-history.com/#ariadijatmiko/rea-video&Date)
 
 ## 常见问题
 
@@ -246,7 +246,7 @@ rea-video 每次拆解都会在输出目录里写一个（`out/ref/VIDEO.md`）�
 
 欢迎来 [linux.do](https://linux.do/) 交流使用体验、拆解案例和复刻思路。也可以加入 [Discord](https://discord.gg/dZj8D3GqWT) 聊天。
 
-有想拆的视频，开一个[「求拆解」issue](https://github.com/JuneYaooo/rea-video/issues/new?template=request_breakdown.yml)，贴上链接就行，拆完会发成案例。
+有想拆的视频，开一个[「求拆解」issue](https://github.com/ariadijatmiko/rea-video/issues/new?template=request_breakdown.yml)，贴上链接就行，拆完会发成案例。
 
 也欢迎加微信交流群：拆视频时遇到的问题、判断制作方式的方法、复刻经验和案例，都可以在群里交流、分享：
 

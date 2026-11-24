@@ -15,12 +15,12 @@
 
 **⚠️ Notice: rea-video is an open-source project. I have not launched and will not launch any cryptocurrency token. Any token using this project’s name is not affiliated with me, and I do not endorse it or accept fees from it. Please be cautious of scams.**
 
-[![Stars](https://img.shields.io/github/stars/JuneYaooo/rea-video?style=flat)](https://github.com/JuneYaooo/rea-video/stargazers)
+[![Stars](https://img.shields.io/github/stars/ariadijatmiko/rea-video?style=flat)](https://github.com/ariadijatmiko/rea-video/stargazers)
 ![Python](https://img.shields.io/badge/python-%E2%89%A53.10-blue)
 ![Agent](https://img.shields.io/badge/runs%20in-Claude%20Code%20%7C%20Codex-8A2BE2)
 [![Output: VIDEO.md](https://img.shields.io/badge/output-VIDEO.md-3d4fd6)](https://videomd.github.io/videomd/)
 
-<a href="https://trendshift.io/repositories/334878" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/334878/daily" alt="JuneYaooo/rea-video | Trendshift" width="250" height="55"></a>
+<a href="https://trendshift.io/repositories/334878" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/334878/daily" alt="ariadijatmiko/rea-video | Trendshift" width="250" height="55"></a>
 
 [![Visit our website](https://img.shields.io/badge/Visit%20our%20website-6644D8?style=for-the-badge)](https://www.reavideo.ai) [![Join our Discord](https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dZj8D3GqWT) [![Follow on X](https://img.shields.io/badge/Follow%20%40yao__june12106-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/yao_june12106)
 
@@ -37,7 +37,7 @@
 rea-video は AI エージェントから使う前提で作っています。Claude Code や Codex など、コマンドを実行できるエージェントにこう頼むだけです。
 
 ```text
-https://github.com/JuneYaooo/rea-video をインストールして、この動画を分解して：/path/to/video.mp4
+https://github.com/ariadijatmiko/rea-video をインストールして、この動画を分解して：/path/to/video.mp4
 ```
 
 CLI のインストールから使い方の把握、実行まで、エージェントが全部やってくれます。必要なのは ffmpeg と Python 3.10 以上です。
@@ -171,7 +171,7 @@ HD 比較動画の音声は元動画のものです。元動画と OiiOii 版は
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JuneYaooo/rea-video&type=Date)](https://star-history.com/#JuneYaooo/rea-video&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ariadijatmiko/rea-video&type=Date)](https://star-history.com/#ariadijatmiko/rea-video&Date)
 
 ## FAQ
 
@@ -237,9 +237,9 @@ rea-video は出力フォルダごとに 1 つ書き出し（`out/ref/VIDEO.md`�
 
 ## コミュニティ
 
-質問や分解結果、リメイクのアイデアは [GitHub Discussions](https://github.com/JuneYaooo/rea-video/discussions) へどうぞ。[Discord](https://discord.gg/dZj8D3GqWT) でも気軽に声をかけてください。中国語が読める方は [linux.do](https://linux.do/) にもいます。
+質問や分解結果、リメイクのアイデアは [GitHub Discussions](https://github.com/ariadijatmiko/rea-video/discussions) へどうぞ。[Discord](https://discord.gg/dZj8D3GqWT) でも気軽に声をかけてください。中国語が読める方は [linux.do](https://linux.do/) にもいます。
 
-分解してほしい動画があれば、リンクを付けて [issue](https://github.com/JuneYaooo/rea-video/issues/new?template=request_breakdown.yml) を立ててください。結果は事例として公開します。
+分解してほしい動画があれば、リンクを付けて [issue](https://github.com/ariadijatmiko/rea-video/issues/new?template=request_breakdown.yml) を立ててください。結果は事例として公開します。
 
 ## クレジット
 

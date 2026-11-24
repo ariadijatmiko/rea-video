@@ -6,9 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        拆完的结果会发到 [docs/cases.md](https://github.com/JuneYaooo/rea-video/blob/main/docs/cases.md)，附逐镜头拼帧和报告。请只提交你有权分享的公开视频。
+        拆完的结果会发到 [docs/cases.md](https://github.com/ariadijatmiko/rea-video/blob/main/docs/cases.md)，附逐镜头拼帧和报告。请只提交你有权分享的公开视频。
 
-        The result goes to [docs/cases.md](https://github.com/JuneYaooo/rea-video/blob/main/docs/cases.md) with per-shot contact sheets and a report. Please only submit public videos you are allowed to share.
+        The result goes to [docs/cases.md](https://github.com/ariadijatmiko/rea-video/blob/main/docs/cases.md) with per-shot contact sheets and a report. Please only submit public videos you are allowed to share.
   - type: input
     id: link
     attributes:

@@ -19,7 +19,7 @@ bash scripts/install_skill.sh    # 可选：装 CLI 并把 skill 链接到 ~/.cl
 Claude Code 也可以按插件装 skill（CLI 仍需 `pip install`，skill 第一步会检查）：
 
 ```text
-/plugin marketplace add JuneYaooo/rea-video
+/plugin marketplace add ariadijatmiko/rea-video
 /plugin install rea-video@rea-video
 ```
 

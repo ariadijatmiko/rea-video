@@ -15,12 +15,12 @@ Toda análise é escrita em **[VIDEO.md](https://videomd.github.io/videomd/)**, 
 
 **⚠️ Notice: rea-video is an open-source project. I have not launched and will not launch any cryptocurrency token. Any token using this project’s name is not affiliated with me, and I do not endorse it or accept fees from it. Please be cautious of scams.**
 
-[![Stars](https://img.shields.io/github/stars/JuneYaooo/rea-video?style=flat)](https://github.com/JuneYaooo/rea-video/stargazers)
+[![Stars](https://img.shields.io/github/stars/ariadijatmiko/rea-video?style=flat)](https://github.com/ariadijatmiko/rea-video/stargazers)
 ![Python](https://img.shields.io/badge/python-%E2%89%A53.10-blue)
 ![Agent](https://img.shields.io/badge/runs%20in-Claude%20Code%20%7C%20Codex-8A2BE2)
 [![Output: VIDEO.md](https://img.shields.io/badge/output-VIDEO.md-3d4fd6)](https://videomd.github.io/videomd/)
 
-<a href="https://trendshift.io/repositories/334878" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/334878/daily" alt="JuneYaooo/rea-video | Trendshift" width="250" height="55"></a>
+<a href="https://trendshift.io/repositories/334878" target="_blank"><img src="https://trendshift.io/api/badge/trendshift/repositories/334878/daily" alt="ariadijatmiko/rea-video | Trendshift" width="250" height="55"></a>
 
 [![Visit our website](https://img.shields.io/badge/Visit%20our%20website-6644D8?style=for-the-badge)](https://www.reavideo.ai) [![Join our Discord](https://img.shields.io/badge/Join%20our%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/dZj8D3GqWT) [![Follow on X](https://img.shields.io/badge/Follow%20%40yao__june12106-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/yao_june12106)
 
@@ -37,7 +37,7 @@ Esquerda: anúncio do TikTok gravado no celular. Direita: remake feito com IA, c
 O rea-video foi pensado para rodar com agentes de IA. No Claude Code, no Codex ou em qualquer agente que rode comandos, é só pedir:
 
 ```text
-Instala o https://github.com/JuneYaooo/rea-video e depois analisa este vídeo: /path/to/video.mp4
+Instala o https://github.com/ariadijatmiko/rea-video e depois analisa este vídeo: /path/to/video.mp4
 ```
 
 O agente instala a CLI, aprende o fluxo e roda tudo. Você só precisa ter ffmpeg e Python 3.10+.
@@ -171,7 +171,7 @@ A detecção de material real fica entre 97% e 99%; em nove clipes anotados à m
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=JuneYaooo/rea-video&type=Date)](https://star-history.com/#JuneYaooo/rea-video&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ariadijatmiko/rea-video&type=Date)](https://star-history.com/#ariadijatmiko/rea-video&Date)
 
 ## Perguntas frequentes
 
@@ -237,9 +237,9 @@ Por enquanto, a documentação está só em chinês.
 
 ## Comunidade
 
-Dúvidas, análises e ideias de remake: [GitHub Discussions](https://github.com/JuneYaooo/rea-video/discussions). A gente também está no [Discord](https://discord.gg/dZj8D3GqWT). Quem fala chinês também acha a gente no [linux.do](https://linux.do/).
+Dúvidas, análises e ideias de remake: [GitHub Discussions](https://github.com/ariadijatmiko/rea-video/discussions). A gente também está no [Discord](https://discord.gg/dZj8D3GqWT). Quem fala chinês também acha a gente no [linux.do](https://linux.do/).
 
-Quer que a gente analise um vídeo? Abra uma [issue de pedido](https://github.com/JuneYaooo/rea-video/issues/new?template=request_breakdown.yml) com o link e a gente publica o resultado como um caso.
+Quer que a gente analise um vídeo? Abra uma [issue de pedido](https://github.com/ariadijatmiko/rea-video/issues/new?template=request_breakdown.yml) com o link e a gente publica o resultado como um caso.
 
 ## Créditos
 

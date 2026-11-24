@@ -55,7 +55,7 @@ NARR_ZH = LangDict({"tts": "TTS 合成", "human": "真人", "none": "无", "mixe
 _MIX_MARK = "<!--mix-->"
 _STEMS_MARK = "<!--stems-->"
 _FOLD_ROWS = 12  # tables longer than this are folded into <details>
-PROJECT_URL = "https://github.com/JuneYaooo/rea-video"
+PROJECT_URL = "https://github.com/ariadijatmiko/rea-video"
 PROJECT_PATH = PROJECT_URL.removeprefix("https://")
 
 
@@ -1321,7 +1321,7 @@ def _speaker_tracks(b: dict) -> list[tuple[str, str]]:
 _WATERMARK = ("url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='520' height='300'%3E"
               "%3Cg transform='rotate(-24 260 150)' fill='{c}' text-anchor='middle' font-family='Helvetica,Arial,sans-serif'%3E"
               "%3Ctext x='260' y='146' font-size='25' font-weight='800' letter-spacing='5'%3EREA-VIDEO%3C/text%3E"
-              "%3Ctext x='260' y='170' font-size='11' letter-spacing='.6'%3Egithub.com/JuneYaooo/rea-video%3C/text%3E%3C/g%3E%3C/svg%3E\")")
+              "%3Ctext x='260' y='170' font-size='11' letter-spacing='.6'%3Egithub.com/ariadijatmiko/rea-video%3C/text%3E%3C/g%3E%3C/svg%3E\")")
 
 _CSS = """
 :root{--bg:#f4f2ec;--fg:#191b20;--muted:#6b6d75;--card:#fffefb;--line:#e3dfd5;--soft:#f1eee6;--accent:#e8452c;--accent-soft:#fdeae5;--ink:#14161b;--wm:WM_LIGHT;--wm-hero:WM_HERO}

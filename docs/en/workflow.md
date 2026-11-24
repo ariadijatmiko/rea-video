@@ -7,7 +7,7 @@ This guide goes from install to a remake plan in English. For every command and 
 You need Python ≥ 3.10 and ffmpeg (macOS: `brew install ffmpeg`; Ubuntu: `apt install ffmpeg`).
 
 ```bash
-pip install "rea-video[ocr] @ git+https://github.com/JuneYaooo/rea-video"
+pip install "rea-video[ocr] @ git+https://github.com/ariadijatmiko/rea-video"
 rea-video --help
 ```
 
@@ -17,7 +17,7 @@ From a clone, `bash scripts/install_skill.sh` installs the CLI and links the ski
 
 ```powershell
 winget install Gyan.FFmpeg     # or: choco install ffmpeg; then open a new terminal
-git clone https://github.com/JuneYaooo/rea-video; cd rea-video
+git clone https://github.com/ariadijatmiko/rea-video; cd rea-video
 pip install ".[ocr]"
 New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null
 New-Item -ItemType Junction -Path "$HOME\.claude\skills\rea-video" -Target "$PWD\skills\rea-video"
@@ -30,14 +30,14 @@ Common setup problems:
 | Problem | What to do |
 |---|---|
 | Windows: `requires a different Python: 3.8.10 not in '>=3.10'` | Run `py -0p` to list versions, then `py -3.12 -m pip install ".[ocr]"`. If `rea-video` isn't found afterwards, run `py -3.12 -m rea_video` |
-| `externally-managed-environment` | Don't use `--break-system-packages`. Run `pipx install "rea-video[ocr] @ git+https://github.com/JuneYaooo/rea-video"` or `bash scripts/install_skill.sh` |
-| No matching `onnxruntime` package | Use Python 3.10–3.14: `pipx install --python python3.12 "rea-video[ocr] @ git+https://github.com/JuneYaooo/rea-video"` or `PYTHON_BIN=python3.12 bash scripts/install_skill.sh` |
+| `externally-managed-environment` | Don't use `--break-system-packages`. Run `pipx install "rea-video[ocr] @ git+https://github.com/ariadijatmiko/rea-video"` or `bash scripts/install_skill.sh` |
+| No matching `onnxruntime` package | Use Python 3.10–3.14: `pipx install --python python3.12 "rea-video[ocr] @ git+https://github.com/ariadijatmiko/rea-video"` or `PYTHON_BIN=python3.12 bash scripts/install_skill.sh` |
 | `opencv-python` conflicts with the headless build after a manual `[ocr]` install on Python ≤ 3.12 | `pip uninstall -y opencv-python && pip install --force-reinstall --no-deps "opencv-python-headless>=4.8,<5"` |
 
 Optional local speech recognition gives you timed spoken lines when a video has no burned-in subtitles:
 
 ```bash
-pip install "rea-video[ocr,asr] @ git+https://github.com/JuneYaooo/rea-video"
+pip install "rea-video[ocr,asr] @ git+https://github.com/ariadijatmiko/rea-video"
 ```
 
 ## 2. Switch to English

@@ -3,7 +3,7 @@
 ## 安装（一次性）
 
 ```bash
-pip install "rea-video[ocr] @ git+https://github.com/JuneYaooo/rea-video"   # 需要 ffmpeg；Python ≥ 3.10
+pip install "rea-video[ocr] @ git+https://github.com/ariadijatmiko/rea-video"   # 需要 ffmpeg；Python ≥ 3.10
 # 或在仓库里：bash scripts/install_skill.sh（装 CLI 并把 skill 链接到各 agent 目录）
 rea-video --help
 ```
@@ -12,7 +12,7 @@ rea-video --help
 
 ```powershell
 winget install Gyan.FFmpeg     # 或 choco install ffmpeg；装完新开一个终端
-git clone https://github.com/JuneYaooo/rea-video; cd rea-video
+git clone https://github.com/ariadijatmiko/rea-video; cd rea-video
 pip install ".[ocr]"
 New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null
 New-Item -ItemType Junction -Path "$HOME\.claude\skills\rea-video" -Target "$PWD\skills\rea-video"
@@ -23,9 +23,9 @@ Windows 上 `pip` 用的是 PATH 里第一个 Python：同时装过 3.8 和 3.12
 `Junction` 不需要管理员权限（`SymbolicLink` 需要）；仓库路径带中文或空格不用特殊处理。`rea-video pdf` 会用 `Program Files` 或 `%LOCALAPPDATA%` 下的 Chrome / Edge，装在别处就设 `REA_CHROME`。
 
 pip 报 `externally-managed-environment`（Homebrew / 新版 Ubuntu 的系统 Python）时，不要加 `--break-system-packages`，改用
-`pipx install "rea-video[ocr] @ git+https://github.com/JuneYaooo/rea-video"`，或直接跑 `install_skill.sh`（会自动改用 pipx 或仓库内 `.venv`）。
+`pipx install "rea-video[ocr] @ git+https://github.com/ariadijatmiko/rea-video"`，或直接跑 `install_skill.sh`（会自动改用 pipx 或仓库内 `.venv`）。
 
-报 `onnxruntime` 找不到匹配的安装包（如 `no wheels with a matching Python ABI tag`）时，是默认 Python 太新、依赖还没出对应版本：换一个 3.10–3.14 的解释器，`pipx install --python python3.12 "rea-video[ocr] @ git+https://github.com/JuneYaooo/rea-video"` 或 `PYTHON_BIN=python3.12 bash scripts/install_skill.sh`。`install_skill.sh` 自动选解释器时已经优先 3.10–3.14。3.10–3.14 都能装全 `[ocr]`：3.12 及以下用 `rapidocr-onnxruntime`，3.13 起自动换成 `rapidocr` 3。
+报 `onnxruntime` 找不到匹配的安装包（如 `no wheels with a matching Python ABI tag`）时，是默认 Python 太新、依赖还没出对应版本：换一个 3.10–3.14 的解释器，`pipx install --python python3.12 "rea-video[ocr] @ git+https://github.com/ariadijatmiko/rea-video"` 或 `PYTHON_BIN=python3.12 bash scripts/install_skill.sh`。`install_skill.sh` 自动选解释器时已经优先 3.10–3.14。3.10–3.14 都能装全 `[ocr]`：3.12 及以下用 `rapidocr-onnxruntime`，3.13 起自动换成 `rapidocr` 3。
 
 在 Python 3.12 及以下手动装了 `[ocr]` 时，OCR 依赖会再装一套 `opencv-python`，和 rea-video 用的 `opencv-python-headless` 抢同一个 `cv2` 目录。装完跑一次：
 `pip uninstall -y opencv-python && pip install --force-reinstall --no-deps "opencv-python-headless>=4.8,<5"`（`install_skill.sh` 会自动做）。
@@ -35,7 +35,7 @@ pip 报 `externally-managed-environment`（Homebrew / 新版 Ubuntu 的系统 Py
 没有烧录字幕、也没开能听声音的 VLM 时，台词从哪来？装上可选的语音识别：
 
 ```bash
-pip install "rea-video[ocr,asr] @ git+https://github.com/JuneYaooo/rea-video"   # 已装过就 pip install sherpa-onnx
+pip install "rea-video[ocr,asr] @ git+https://github.com/ariadijatmiko/rea-video"   # 已装过就 pip install sherpa-onnx
 ```
 
 装了之后 `decompose` 会自动在分离出的人声干声上识别（SenseVoice，中 / 英 / 日 / 韩 / 粤；首次使用下载约 160 MB 模型到 `$REA_VIDEO_MODELS`，默认 `~/.cache/rea-video/models`），
